@@ -13,6 +13,19 @@ button {
   color: #e8e6e3;
 }
 
+.dark a {
+  color: #e8e6e3;
+}
+
+.dark button.rep-btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark button.rep-btn:hover {
+  background-color: #e8e6e3;
+}
+
 .light {
   transition: all 400ms ease;
   background-color: #fff;

@@ -9,8 +9,9 @@ import GuessYourTrack from "./assets/projects_images/guessyourtrack.jpg";
 import NextDictionary from "./assets/projects_images/nextdictionary.jpg";
 import PizzaPlanet from "./assets/projects_images/pizzaplanet.jpg";
 import SolarSystem from "./assets/projects_images/solarsystem.jpg";
-import IMC from "./assets/projects_images/cursos.jpg";
-import Cursos from "./assets/projects_images/IMC.jpg";
+import Cursos from "./assets/projects_images/cursos.jpg";
+import IMC from "./assets/projects_images/IMC.jpg";
+import Portfolio from "./assets/projects_images/portfolio.jpg";
 import {
   FaGithub,
   FaLinkedin,
@@ -18,6 +19,7 @@ import {
   FaSun,
   FaWhatsapp,
 } from "react-icons/fa";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { useState } from "react";
 
 function App() {
@@ -27,42 +29,57 @@ function App() {
     {
       image: StockDo,
       rep: "https://github.com/StockDo/stockdo",
+      demo: "https://stockdo.vercel.app",
     },
     {
       image: Adoptify,
       rep: "https://github.com/RenanL15/adoptify",
+      demo: "https://adoptify-renanl15.vercel.app",
     },
     {
       image: Bertioga,
       rep: "https://github.com/RenanL15/site-bertioga",
+      demo: "https://bertioga.vercel.app",
     },
     {
       image: Carlist,
       rep: "https://github.com/RenanL15/car-list",
+      demo: "https://car-list-react.vercel.app",
     },
     {
       image: PizzaPlanet,
       rep: "https://github.com/RenanL15/pizza-planet",
+      demo: "https://pizza-planet.vercel.app",
     },
     {
       image: Danganfellas,
       rep: "https://github.com/RenanL15/danganfellas",
+      demo: "https://danganfellas.vercel.app",
     },
     {
       image: GuessYourTrack,
       rep: "https://github.com/RenanL15/guess-your-track",
+      demo: "https://guessyourtrack.vercel.app",
     },
     {
       image: Calculadora,
       rep: "https://github.com/RenanL15/calculadora-react",
+      demo: "https://calculadora-react-tan.vercel.app/",
     },
     {
       image: SolarSystem,
       rep: "https://github.com/RenanL15/solar-system",
+      demo: "https://solar-system-renanl15.vercel.app",
     },
     {
       image: NextDictionary,
       rep: "https://github.com/RenanL15/NextDictionary",
+      demo: "https://next-dictionary-project.vercel.app",
+    },
+    {
+      image: Portfolio,
+      rep: "https://github.com/RenanL15/solar-system",
+      demo: "https://renan-almeida.vercel.app",
     },
     {
       image: IMC,
@@ -118,7 +135,7 @@ function App() {
           width={300}
           className="rounded-2xl"
         />
-        <p className="font-main leading-[3rem] text-lg w-[50%] text-justify max-sm:w-[80%]">
+        <p className="font-main leading-[3rem] text-lg w-[50%] text-justify max-xl:w-[80%] max-xl:text-base max-xl:text-center max-xl:leading-9">
           Olá, meu nome é Renan Almeida, e atualmente sou formado em
           Desenvolvimento de Sistemas na ETEC Dra. Ruth Cardoso. Ao longo dos
           últimos 3 anos, tenho imergido no universo do desenvolvimento de
@@ -135,26 +152,40 @@ function App() {
         <h1 className="text-3xl font-title underline underline-offset-[1rem] text-center max-sm:text-2xl">
           Meus Projetos
         </h1>
-        <div className="flex flex-wrap justify-center gap-24 mx-12 my-24">
+        <div className="flex flex-wrap justify-center gap-24 mx-8 my-24">
           {projects.map((e, i) => (
-            <div className="bg-black rounded-lg shadow-xl overflow-clip group">
-              <div key={i} className="max-w-[25rem] overflow-clip">
-                <img
-                  src={e.image}
-                  className="duration-300 opacity-90 group-hover:scale-110"
-                />
+            <div className="flex flex-col items-center">
+              <div className="bg-black rounded-lg shadow-xl overflow-clip group">
+                <div key={i} className="max-w-[25rem] overflow-clip">
+                  <img
+                    src={e.image}
+                    className="duration-300 opacity-90 group-hover:scale-110"
+                  />
+                </div>
+                <button
+                  onClick={() => {
+                    window.open(e.rep);
+                  }}
+                  className="flex items-center justify-center w-full gap-2 py-3 text-xl font-bold text-white bg-black font-main hover:bg-neutral-8 hover:bg-neutral-800 rep-btn">
+                  Ver repositório
+                  <span className="inline-block">
+                    <FaGithub />
+                    {/* <FaArrowUpRightFromSquare /> */}
+                  </span>
+                </button>
               </div>
-              <button
-                onClick={() => {
-                  window.open(e.rep);
-                }}
-                className="flex items-center justify-center w-full gap-2 py-3 text-xl font-bold text-white bg-black font-main hover:bg-neutral-8 hover:!bg-neutral-800">
-                Ver repositório
-                <span className="inline-block">
-                  <FaGithub />
-                  {/* <FaArrowUpRightFromSquare /> */}
-                </span>
-              </button>
+              {e.demo && (
+                <a
+                  href={e.demo}
+                  target="_blank"
+                  className="mt-3 text-xl font-semibold text-slate-600 hover:underline">
+                  Abrir website
+                  <FaArrowUpRightFromSquare
+                    size={19}
+                    className="inline-block ml-2 text-center"
+                  />
+                </a>
+              )}
             </div>
           ))}
         </div>
