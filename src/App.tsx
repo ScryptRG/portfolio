@@ -88,7 +88,11 @@ function App() {
           <FaWhatsapp />
         </a>
       </div>
-      <button onClick={() => setDark(!dark)} className="fixed right-0 m-4">
+      <button
+        onClick={() => {
+          setDark(!dark);
+        }}
+        className="fixed right-0 m-4">
         {dark ? <FaSun size={30} /> : <FaMoon size={30} />}
       </button>
       <div className="flex items-center justify-center min-h-screen">
