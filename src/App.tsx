@@ -128,7 +128,7 @@ function App() {
           confiadas, mantendo compromisso com os prazos estabelecidos. Minha
           fidelidade à entrega de resultados é notória, e faço questão de
           garantir que cada projeto seja concluído de acordo com as
-          especificações e expectativas do cliente.
+          especificações e expectativas da empresa.
         </p>
       </div>
       <div className="flex flex-col items-center mt-64">
