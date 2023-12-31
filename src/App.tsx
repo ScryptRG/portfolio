@@ -99,10 +99,10 @@ function App() {
         <div className="flex flex-col items-center gap-4 mx-4 text-center">
           <h1 className="text-4xl font-title max-sm:text-3xl">Renan Almeida</h1>
           <h2 className="text-2xl font-subtitle max-sm:text-2xl">
-            Desenvolvedor Front-end
+            Desenvolvedor Full-stack
           </h2>
           <img
-            src="https://camo.githubusercontent.com/a58a41bd835c6e80a7b68b272e60ede430966243aa343c42d6258f265575f9ba/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d6a732c68746d6c2c6373732c72656163742c7461696c77696e642c6e6f64656a732c616e67756c61722c626f6f7473747261702c7068702c6669676d612c6d7973716c"
+            src="https://skillicons.dev/icons?i=js,typescript,html,css,react,tailwind,nodejs,git,php,mysql"
             alt="My skills [JS, HTML, CSS, React, Tailwind, NodeJS, Angular, Bootstrap, PHP, Figma, MySQL]"
             width={450}
           />
@@ -111,14 +111,14 @@ function App() {
       <h1 className="mb-12 text-3xl text-center underline font-title underline-offset-[1rem]">
         Sobre mim
       </h1>
-      <div className="flex flex-wrap items-center justify-center gap-10 m-auto text-justify">
+      <div className="flex flex-wrap items-center justify-center gap-10 m-auto">
         <img
           src={Picture}
           alt="My picture"
           width={300}
           className="rounded-2xl"
         />
-        <p className="font-main leading-10 text-lg w-[60%]">
+        <p className="font-main leading-[3rem] text-lg w-[50%] text-justify max-sm:w-[80%]">
           Olá, meu nome é Renan Almeida, e atualmente sou formado em
           Desenvolvimento de Sistemas na ETEC Dra. Ruth Cardoso. Ao longo dos
           últimos 3 anos, tenho imergido no universo do desenvolvimento de
@@ -132,7 +132,7 @@ function App() {
         </p>
       </div>
       <div className="flex flex-col items-center mt-64">
-        <h1 className="text-3xl font-title underline underline-offset-[1rem] text-center max-sm:no-underline">
+        <h1 className="text-3xl font-title underline underline-offset-[1rem] text-center max-sm:text-2xl">
           Meus Projetos
         </h1>
         <div className="flex flex-wrap justify-center gap-24 mx-12 my-24">
