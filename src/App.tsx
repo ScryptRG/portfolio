@@ -1,14 +1,82 @@
 import Picture from "./assets/pic.jpg";
-import StockDo from "./assets/stockdo.png";
-import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import StockDo from "./assets/projects_images/stockdo.png";
+import Adoptify from "./assets/projects_images/adoptify.jpg";
+import Bertioga from "./assets/projects_images/bertioga.jpg";
+import Calculadora from "./assets/projects_images/calculadora.jpg";
+import Carlist from "./assets/projects_images/carlist.jpg";
+import Danganfellas from "./assets/projects_images/danganfellas.jpg";
+import GuessYourTrack from "./assets/projects_images/guessyourtrack.jpg";
+import NextDictionary from "./assets/projects_images/nextdictionary.jpg";
+import PizzaPlanet from "./assets/projects_images/pizzaplanet.jpg";
+import SolarSystem from "./assets/projects_images/solarsystem.jpg";
+import IMC from "./assets/projects_images/cursos.jpg";
+import Cursos from "./assets/projects_images/IMC.jpg";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaMoon,
+  FaSun,
+  FaWhatsapp,
+} from "react-icons/fa";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import { useState } from "react";
 
 function App() {
+  const [dark, setDark] = useState(false);
+
+  const projects = [
+    {
+      image: StockDo,
+      rep: "https://github.com/StockDo/stockdo",
+    },
+    {
+      image: Adoptify,
+      rep: "https://github.com/RenanL15/adoptify",
+    },
+    {
+      image: Bertioga,
+      rep: "https://github.com/RenanL15/site-bertioga",
+    },
+    {
+      image: Carlist,
+      rep: "https://github.com/RenanL15/car-list",
+    },
+    {
+      image: PizzaPlanet,
+      rep: "https://github.com/RenanL15/pizza-planet",
+    },
+    {
+      image: Danganfellas,
+      rep: "https://github.com/RenanL15/danganfellas",
+    },
+    {
+      image: GuessYourTrack,
+      rep: "https://github.com/RenanL15/guess-your-track",
+    },
+    {
+      image: Calculadora,
+      rep: "https://github.com/RenanL15/calculadora-react",
+    },
+    {
+      image: SolarSystem,
+      rep: "https://github.com/RenanL15/solar-system",
+    },
+    {
+      image: NextDictionary,
+      rep: "https://github.com/RenanL15/NextDictionary",
+    },
+    {
+      image: IMC,
+      rep: "https://github.com/RenanL15/calculo-imc",
+    },
+    {
+      image: Cursos,
+      rep: "https://github.com/RenanL15/cadastro-cursos",
+    },
+  ];
   return (
-    <main>
-      <h1 className="text-red-500 absolute left-[55rem] top-4">
-        Under construction!
-      </h1>
-      <div className="flex flex-col gap-4 text-2xl m-3 fixed">
+    <main className={`${dark ? "dark" : "light"}`}>
+      <div className="fixed flex flex-col gap-4 m-3 text-2xl">
         <a href="https://github.com/RenanL15" target="_blank">
           <FaGithub />
         </a>
@@ -21,8 +89,11 @@ function App() {
           <FaWhatsapp />
         </a>
       </div>
-      <div className="min-h-screen flex justify-center items-center">
-        <div className="flex flex-col items-center gap-4">
+      <button onClick={() => setDark(!dark)} className="fixed right-0 m-4">
+        {dark ? <FaSun size={30} /> : <FaMoon size={30} />}
+      </button>
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="flex flex-col items-center gap-4 mx-4 text-center">
           <h1 className="text-4xl font-title max-sm:text-3xl">Renan Almeida</h1>
           <h2 className="text-2xl font-subtitle max-sm:text-2xl">
             Desenvolvedor Front-end
@@ -34,7 +105,10 @@ function App() {
           />
         </div>
       </div>
-      <div className="flex flex-wrap justify-center items-center m-auto gap-10 text-justify">
+      <h1 className="mb-12 text-3xl text-center underline font-title underline-offset-[1rem]">
+        Sobre mim
+      </h1>
+      <div className="flex flex-wrap items-center justify-center gap-10 m-auto text-justify">
         <img
           src={Picture}
           alt="My picture"
@@ -54,23 +128,32 @@ function App() {
           especificações e expectativas do cliente.
         </p>
       </div>
-      <div className="flex flex-col items-center mt-44">
-        <h1 className="font-title text-3xl">Meus Projetos</h1>
-        <div className="flex justify-center my-24 gap-24 mx-12 flex-wrap">
-          {Array(12)
-            .fill("")
-            .map((_, i) => (
-              <div
-                key={i}
-                className="w-[25rem] rounded-2xl overflow-clip shadow-2xl">
-                <div className="h-full">
-                  <img src={StockDo} className="opacity-80" />
-                  <button className="bg-black text-white font-main font-bold w-full py-3 text-xl">
-                    View project
-                  </button>
-                </div>
+      <div className="flex flex-col items-center mt-64">
+        <h1 className="text-3xl font-title underline underline-offset-[1rem] text-center max-sm:no-underline">
+          Meus Projetos
+        </h1>
+        <div className="flex flex-wrap justify-center gap-24 mx-12 my-24">
+          {projects.map((e, i) => (
+            <div className="bg-black rounded-lg shadow-xl overflow-clip group">
+              <div key={i} className="max-w-[25rem] overflow-clip">
+                <img
+                  src={e.image}
+                  className="duration-300 opacity-90 group-hover:scale-110"
+                />
               </div>
-            ))}
+              <button
+                onClick={() => {
+                  window.open(e.rep);
+                }}
+                className="flex items-center justify-center w-full gap-2 py-3 text-xl font-bold text-white bg-black font-main hover:bg-neutral-8 hover:!bg-neutral-800">
+                Ver repositório
+                <span className="inline-block">
+                  <FaGithub />
+                  {/* <FaArrowUpRightFromSquare /> */}
+                </span>
+              </button>
+            </div>
+          ))}
         </div>
       </div>
     </main>
