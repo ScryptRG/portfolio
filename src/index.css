@@ -7,6 +7,10 @@ button {
   outline: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .dark {
   transition: all 400ms ease;
   background-color: #181a1b;

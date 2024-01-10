@@ -21,6 +21,7 @@ import {
 } from "react-icons/fa";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { useState } from "react";
+import { IoIosArrowDown } from "react-icons/io";
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -123,9 +124,14 @@ function App() {
             alt="My skills [JS, HTML, CSS, React, Tailwind, NodeJS, Angular, Bootstrap, PHP, Figma, MySQL]"
             width={450}
           />
+          <a href="#sobre" className="mt-6 animate-bounce">
+            <IoIosArrowDown size={50} />
+          </a>
         </div>
       </div>
-      <h1 className="mb-12 text-3xl text-center underline font-title underline-offset-[1rem]">
+      <h1
+        className="mb-12 pt-12 text-3xl text-center underline font-title underline-offset-[1rem]"
+        id="sobre">
         Sobre mim
       </h1>
       <div className="flex flex-wrap items-center justify-center gap-10 m-auto">
