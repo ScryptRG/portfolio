@@ -1,4 +1,4 @@
-import Picture from "./assets/pic.jpg";
+import Picture from "./assets/pic.png";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
