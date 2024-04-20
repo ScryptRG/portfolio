@@ -47,11 +47,11 @@ function App() {
           className="rounded-2xl"
         />
         <p className="font-main leading-[3rem] text-lg w-[50%] text-justify max-xl:w-[80%] max-xl:text-base max-xl:text-center max-xl:leading-9">
-          Olá, meu nome é Renan Almeida, e Atualmente sou formado em
+          Olá, meu nome é Renan Almeida, atualmente sou formado em
           Desenvolvimento de Sistemas na ETEC Dra. Ruth Cardoso. Ao longo dos
           últimos 3 anos, tenho imergido no universo de desenvolvimento de
           websites, aplicando e aprimorando constantemente meus conhecimentos
-          através de projetos acadêmicos pessoais, tendo conhecimento em
+          através de projetos pessoais e acadêmicos, tendo conhecimento em
           tecnologias como JavaScript, React, NodeJS, PHP e MySQL, que são
           ferramentas fundamentais para desenvolvimento full-stack.
         </p>

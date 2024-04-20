@@ -5,6 +5,7 @@ import Calculadora from "../../assets/projects_images/calculadora.jpg";
 import Carlist from "../../assets/projects_images/carlist.jpg";
 import Danganfellas from "../../assets/projects_images/danganfellas.jpg";
 import GuessYourTrack from "../../assets/projects_images/guessyourtrack.jpg";
+import Rankify from "../../assets/projects_images/rankify.png";
 import NextDictionary from "../../assets/projects_images/nextdictionary.jpg";
 import PizzaPlanet from "../../assets/projects_images/pizzaplanet.jpg";
 import SolarSystem from "../../assets/projects_images/solarsystem.jpg";
@@ -15,7 +16,12 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 
 export default function Projects() {
-  const projects = [
+  interface Projects {
+    image: string;
+    rep: string;
+    demo: string;
+  }
+  const projects: Projects[] = [
     {
       image: StockDo,
       rep: "https://github.com/StockDo/stockdo",
@@ -52,6 +58,11 @@ export default function Projects() {
       demo: "https://guessyourtrack.vercel.app",
     },
     {
+      image: Rankify,
+      rep: "https://github.com/RenanL15/rankify",
+      demo: "https://rankify-me.netlify.app",
+    },
+    {
       image: Calculadora,
       rep: "https://github.com/RenanL15/calculadora-react",
       demo: "https://calculadora-react-tan.vercel.app/",
@@ -74,10 +85,12 @@ export default function Projects() {
     {
       image: IMC,
       rep: "https://github.com/RenanL15/calculo-imc",
+      demo: "",
     },
     {
       image: Cursos,
       rep: "https://github.com/RenanL15/cadastro-cursos",
+      demo: "",
     },
   ];
   return (
