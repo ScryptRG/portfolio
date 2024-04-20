@@ -20,7 +20,7 @@ function App() {
       </button>
       <div className="flex items-center justify-center min-h-screen">
         <div className="flex flex-col items-center gap-4 mx-4 text-center">
-          <h1 className="text-4xl font-title max-sm:text-3xl">Renan Almeida</h1>
+          <h1 className="text-4xl font-title max-sm:text-3xl">Renan de Almeida</h1>
           <h2 className="text-2xl font-subtitle max-sm:text-2xl">
             Desenvolvedor Full-stack
           </h2>
@@ -47,7 +47,7 @@ function App() {
           className="rounded-2xl"
         />
         <p className="font-main leading-[3rem] text-lg w-[50%] text-justify max-xl:w-[80%] max-xl:text-base max-xl:text-center max-xl:leading-9">
-          Olá, meu nome é Renan Almeida, atualmente sou formado em
+          Olá, meu nome é Renan, atualmente sou formado em
           Desenvolvimento de Sistemas na ETEC Dra. Ruth Cardoso. Ao longo dos
           últimos 3 anos, tenho imergido no universo de desenvolvimento de
           websites, aplicando e aprimorando constantemente meus conhecimentos
