@@ -3,6 +3,7 @@ import Adoptify from "../../assets/projects_images/adoptify.jpg";
 import Bertioga from "../../assets/projects_images/bertioga.jpg";
 import Calculadora from "../../assets/projects_images/calculadora.jpg";
 import Carlist from "../../assets/projects_images/carlist.jpg";
+import Solvex from "../../assets/projects_images/solvex.png";
 import Danganfellas from "../../assets/projects_images/danganfellas.jpg";
 import GuessYourTrack from "../../assets/projects_images/guessyourtrack.jpg";
 import Rankify from "../../assets/projects_images/rankify.png";
@@ -68,6 +69,11 @@ export default function Projects() {
       demo: "https://calculadora-react-tan.vercel.app/",
     },
     {
+      image: Solvex,
+      rep: "",
+      demo: "https://solvex.netlify.app",
+    },
+    {
       image: SolarSystem,
       rep: "https://github.com/RenanL15/solar-system",
       demo: "https://solar-system-renanl15.vercel.app",
@@ -97,24 +103,26 @@ export default function Projects() {
     <div className="flex flex-wrap justify-center gap-24 mx-8 my-24">
       {projects.map((e, i) => (
         <div className="flex flex-col items-center">
-          <div className="bg-black rounded-lg shadow-xl overflow-clip group">
-            <div key={i} className="max-w-[25rem] overflow-clip">
+          <div className="bg-black lg:h-[17.5rem] rounded-lg shadow-xl overflow-clip group">
+            <div className="max-w-[25rem] overflow-clip">
               <img
                 src={e.image}
                 className="duration-300 opacity-90 group-hover:scale-110"
               />
             </div>
-            <button
-              onClick={() => {
-                window.open(e.rep);
-              }}
-              className="flex items-center justify-center w-full gap-2 py-3 text-xl font-bold text-white bg-black font-main hover:bg-neutral-8 hover:bg-neutral-800 rep-btn">
-              Ver repositório
-              <span className="inline-block">
-                <FaGithub />
-                {/* <FaArrowUpRightFromSquare /> */}
-              </span>
-            </button>
+            {e.rep && (
+              <button
+                onClick={() => {
+                  window.open(e.rep);
+                }}
+                className="flex items-center justify-center w-full gap-2 py-3 text-xl font-bold text-white bg-black font-main hover:bg-neutral-8 hover:bg-neutral-800 rep-btn">
+                Ver repositório
+                <span className="inline-block">
+                  <FaGithub />
+                  {/* <FaArrowUpRightFromSquare /> */}
+                </span>
+              </button>
+            )}
           </div>
           {e.demo && (
             <a
