@@ -102,7 +102,7 @@ export default function Projects() {
   return (
     <div className="flex flex-wrap justify-center gap-24 mx-8 my-24">
       {projects.map((e, i) => (
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center" key={i}>
           <div className="bg-black lg:h-[17.5rem] rounded-lg shadow-xl overflow-clip group">
             <div className="max-w-[25rem] overflow-clip">
               <img

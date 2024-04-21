@@ -15,18 +15,15 @@ function App() {
         onClick={() => {
           setDark(!dark);
         }}
-        className="fixed right-0 m-4">
+        className="fixed right-0 m-4"
+      >
         {dark ? <FaSun size={30} /> : <FaMoon size={30} />}
       </button>
       <div className="flex items-center justify-center min-h-screen">
         <div className="flex flex-col items-center gap-4 mx-4 text-center">
-<<<<<<< HEAD
           <h1 className="text-4xl font-title max-sm:text-3xl">
             Renan de Almeida
           </h1>
-=======
-          <h1 className="text-4xl font-title max-sm:text-3xl">Renan de Almeida</h1>
->>>>>>> 61d729aa28ebb54ef3d8075e8ba6172f343a318e
           <h2 className="text-2xl font-subtitle max-sm:text-2xl">
             Desenvolvedor Full-stack
           </h2>
@@ -42,7 +39,8 @@ function App() {
       </div>
       <h1
         className="mb-12 pt-12 text-3xl text-center underline font-title underline-offset-[1rem]"
-        id="sobre">
+        id="sobre"
+      >
         Sobre mim
       </h1>
       <div className="flex flex-wrap items-center justify-center gap-10 m-auto">
@@ -53,7 +51,6 @@ function App() {
           className="rounded-2xl"
         />
         <p className="font-main leading-[3rem] text-lg w-[50%] text-justify max-xl:w-[80%] max-xl:text-base max-xl:text-center max-xl:leading-9">
-<<<<<<< HEAD
           Olá, meu nome é Renan, atualmente sou formado em Desenvolvimento de
           Sistemas na ETEC Dra. Ruth Cardoso. Ao longo dos últimos 3 anos, tenho
           imergido no universo de desenvolvimento de websites, aplicando e
@@ -61,15 +58,6 @@ function App() {
           pessoais e acadêmicos, tendo conhecimento em tecnologias como
           JavaScript, React, NodeJS, PHP e MySQL, que são ferramentas
           fundamentais para desenvolvimento full-stack.
-=======
-          Olá, meu nome é Renan, atualmente sou formado em
-          Desenvolvimento de Sistemas na ETEC Dra. Ruth Cardoso. Ao longo dos
-          últimos 3 anos, tenho imergido no universo de desenvolvimento de
-          websites, aplicando e aprimorando constantemente meus conhecimentos
-          através de projetos pessoais e acadêmicos, tendo conhecimento em
-          tecnologias como JavaScript, React, NodeJS, PHP e MySQL, que são
-          ferramentas fundamentais para desenvolvimento full-stack.
->>>>>>> 61d729aa28ebb54ef3d8075e8ba6172f343a318e
         </p>
       </div>
       <div className="flex flex-col items-center mt-64">
