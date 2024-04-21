@@ -115,7 +115,8 @@ export default function Projects() {
                 onClick={() => {
                   window.open(e.rep);
                 }}
-                className="flex items-center justify-center w-full gap-2 py-3 text-xl font-bold text-white bg-black font-main hover:bg-neutral-8 hover:bg-neutral-800 rep-btn">
+                className="flex items-center justify-center w-full gap-2 py-3 text-xl font-bold text-white bg-black font-main hover:bg-neutral-8 hover:bg-neutral-800 rep-btn"
+              >
                 Ver repositório
                 <span className="inline-block">
                   <FaGithub />
@@ -128,7 +129,8 @@ export default function Projects() {
             <a
               href={e.demo}
               target="_blank"
-              className="mt-3 text-xl font-semibold text-slate-600 hover:underline">
+              className="mt-3 text-xl font-semibold text-slate-600 hover:underline"
+            >
               Abrir website
               <FaArrowUpRightFromSquare
                 size={19}
