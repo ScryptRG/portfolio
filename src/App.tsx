@@ -28,8 +28,8 @@ function App() {
             Desenvolvedor Full-stack
           </h2>
           <img
-            src="https://skillicons.dev/icons?i=js,typescript,html,css,react,tailwind,nodejs,git,php,mysql"
-            alt="My skills [JS, HTML, CSS, React, Tailwind, NodeJS, Angular, Bootstrap, PHP, Figma, MySQL]"
+            src="https://skillicons.dev/icons?i=js,typescript,html,css,react,nextjs,tailwind,nodejs,git,php,mysql"
+            alt="My skills [JS, HTML, CSS, React, NextJS, Tailwind, NodeJS, Angular, Bootstrap, PHP, Figma, MySQL]"
             width={450}
           />
           <a href="#sobre" className="mt-6 animate-bounce">
@@ -51,12 +51,13 @@ function App() {
           className="rounded-2xl"
         />
         <p className="font-main leading-[3rem] text-lg w-[50%] text-justify max-xl:w-[80%] max-xl:text-base max-xl:text-center max-xl:leading-9">
-          Olá, meu nome é Renan, atualmente sou formado em Desenvolvimento de
-          Sistemas na ETEC Dra. Ruth Cardoso. Ao longo dos últimos 3 anos, tenho
-          imergido no universo de desenvolvimento de websites, aplicando e
-          aprimorando constantemente meus conhecimentos através de projetos
-          pessoais e acadêmicos, tendo conhecimento em tecnologias como
-          JavaScript, React, NodeJS, PHP e MySQL, que são ferramentas
+          Olá, meu nome é Renan, sou formado em Desenvolvimento de Sistemas na
+          ETEC Dra. Ruth Cardoso e atualmente estou cursando o 1º ciclo em
+          Sistemas para Internet na FATEC Rubens Lara. Ao longo dos últimos 3
+          anos, tenho imergido no universo de desenvolvimento de websites,
+          aplicando e aprimorando constantemente meus conhecimentos através de
+          projetos pessoais e acadêmicos, tendo conhecimento em tecnologias como
+          JavaScript, React, NodeJS, Next, PHP e MySQL, que são ferramentas
           fundamentais para desenvolvimento full-stack.
         </p>
       </div>
