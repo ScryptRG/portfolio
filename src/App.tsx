@@ -4,6 +4,7 @@ import { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import Projects from "./components/Projects/Projects.tsx";
 import Contacts from "./components/Contacts/Contacts.tsx";
+import Footer from "./components/Footer/index.tsx";
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -15,7 +16,7 @@ function App() {
         onClick={() => {
           setDark(!dark);
         }}
-        className="fixed right-0 m-4"
+        className="fixed right-4 top-4"
       >
         {dark ? <FaSun size={30} /> : <FaMoon size={30} />}
       </button>
@@ -67,6 +68,7 @@ function App() {
         </h1>
         <Projects />
       </div>
+      <Footer />
     </main>
   );
 }

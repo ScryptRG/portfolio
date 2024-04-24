@@ -30,6 +30,10 @@ html {
   background-color: #e8e6e3;
 }
 
+.dark footer {
+  background-color: #0c0d0d;
+}
+
 .light {
   transition: all 400ms ease;
   background-color: #fff;
