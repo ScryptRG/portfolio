@@ -39,12 +39,3 @@ html {
   background-color: #fff;
   color: #000;
 }
-
-::-webkit-scrollbar {
-  width: 0.5em;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #000;
-  border-radius: 1em;
-}

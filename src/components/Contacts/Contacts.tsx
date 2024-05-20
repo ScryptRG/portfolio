@@ -8,7 +8,7 @@ import Curriculo from "../../assets/curriculo_renan.pdf";
 
 export default function Contacts() {
   return (
-    <div className="absolute flex flex-col gap-4 m-3 text-2xl">
+    <div className="absolute flex flex-col gap-4 m-3 text-xl">
       <a href="https://github.com/RenanL15" target="_blank" title="Github">
         <FaGithub />
       </a>
