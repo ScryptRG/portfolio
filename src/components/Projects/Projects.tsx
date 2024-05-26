@@ -183,7 +183,7 @@ export default function Projects() {
         <div className="relative flex flex-col items-center group" key={i}>
           <h1
             className="font-mono tesxt-lg mb-4 border border-neutral-300 w-full text-center py-1 rounded-full
-          absolute left-0 top-14 duration-300 group-hover:-top-12"
+          absolute left-0 -top-12 duration-300"
           >
             {e.title}
           </h1>
