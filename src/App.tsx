@@ -16,7 +16,7 @@ function App() {
         onClick={() => {
           setDark(!dark);
         }}
-        className="fixed right-4 top-4"
+        className="absolute right-4 top-4"
       >
         {dark ? <FaSun size={30} /> : <FaMoon size={30} />}
       </button>
