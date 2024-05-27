@@ -4,8 +4,8 @@ import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-center py-12 bg-gray-200 ">
-      <div className="flex flex-col gap-6">
+    <footer className="flex justify-center py-16 bg-gray-200 ">
+      <div className="flex flex-col gap-8">
         <div className="flex gap-2 items-center">
           <MdEmail size={25} />
           <p>renandealmeida2003@gmail.com</p>

@@ -32,21 +32,12 @@ export default function Projects() {
   }
   const projects: Projects[] = [
     {
-      title: "StockDo",
-      image: StockDo,
-      rep: "https://github.com/StockDo/stockdo",
-      demo: "https://stockdo.vercel.app",
-      alt: "Interface do projeto StockDo",
-      tools:
-        "https://skillicons.dev/icons?i=js,css,react,tailwind,nodejs,mysql",
-    },
-    {
       title: "Adoptify",
       image: Adoptify,
       rep: "https://github.com/RenanL15/adoptify",
       demo: "https://adoptify-renanl15.vercel.app",
       alt: "Interface do projeto Adoptify",
-      tools: "https://skillicons.dev/icons?i=js,css,react,tailwind",
+      tools: "https://skillicons.dev/icons?i=js,react",
     },
     {
       title: "Bertioga",
@@ -54,7 +45,31 @@ export default function Projects() {
       rep: "https://github.com/RenanL15/site-bertioga",
       demo: "https://bertioga.vercel.app",
       alt: "Interface do projeto Bertioga",
-      tools: "https://skillicons.dev/icons?i=js,html,css",
+      tools: "https://skillicons.dev/icons?i=js,html",
+    },
+    {
+      title: "Calculadora",
+      image: Calculadora,
+      rep: "https://github.com/RenanL15/calculadora-react",
+      demo: "https://calculadora-react-tan.vercel.app/",
+      alt: "Interface do projeto Calculadora",
+      tools: "https://skillicons.dev/icons?i=js,react",
+    },
+    {
+      title: "Calculadora IMC",
+      image: IMC,
+      rep: "https://github.com/RenanL15/calculo-imc",
+      demo: "",
+      alt: "Interface do projeto Calculadora IMC",
+      tools: "https://skillicons.dev/icons?i=html,php",
+    },
+    {
+      title: "Cadastro de Cursos",
+      image: Cursos,
+      rep: "https://github.com/RenanL15/cadastro-cursos",
+      demo: "",
+      alt: "Interface do projeto Cadastro de Cursos",
+      tools: "https://skillicons.dev/icons?i=html,php",
     },
     {
       title: "Carlist",
@@ -62,7 +77,47 @@ export default function Projects() {
       rep: "https://github.com/RenanL15/car-list",
       demo: "https://car-list-react.vercel.app",
       alt: "Interface do projeto Carlist",
-      tools: "https://skillicons.dev/icons?i=js,css,react,tailwind",
+      tools: "https://skillicons.dev/icons?i=js,react",
+    },
+    {
+      title: "Danganfellas",
+      image: Danganfellas,
+      rep: "https://github.com/RenanL15/danganfellas",
+      demo: "https://danganfellas.vercel.app",
+      alt: "Interface do projeto Danganfellas",
+      tools: "https://skillicons.dev/icons?i=js,react",
+    },
+    {
+      title: "GuessYourTrack",
+      image: GuessYourTrack,
+      rep: "https://github.com/RenanL15/guess-your-track",
+      demo: "https://guessyourtrack.vercel.app",
+      alt: "Interface do projeto GuessYourTrack",
+      tools: "https://skillicons.dev/icons?i=typescript,react",
+    },
+    {
+      title: "NextDictionary",
+      image: NextDictionary,
+      rep: "https://github.com/RenanL15/NextDictionary",
+      demo: "https://next-dictionary-project.vercel.app",
+      alt: "Interface do projeto NextDictionary",
+      tools: "https://skillicons.dev/icons?i=js,html",
+    },
+    {
+      title: "Patinhas que Brilham",
+      image: PatinhasQueBrilham,
+      rep: "https://github.com/RenanL15/patinhas-que-brilham",
+      demo: "https://patinhas-que-brilham.vercel.app",
+      alt: "Interface do projeto Patinhas que Brilham",
+      tools: "https://skillicons.dev/icons?i=typescript,nextjs",
+    },
+    {
+      title: "Pimentel & Secco",
+      image: PimentelESecco,
+      rep: "",
+      demo: "https://nextapp-livid-nine.vercel.app",
+      alt: "Interface do projeto Pimentel & Secco",
+      tools: "https://skillicons.dev/icons?i=typescript,nextjs",
     },
     {
       title: "Pizza Planet",
@@ -70,7 +125,15 @@ export default function Projects() {
       rep: "https://github.com/RenanL15/pizza-planet",
       demo: "https://pizza-planet.vercel.app",
       alt: "Interface do projeto Pizza Planet",
-      tools: "https://skillicons.dev/icons?i=js,html,css",
+      tools: "https://skillicons.dev/icons?i=js,html",
+    },
+    {
+      title: "Portfólio",
+      image: Portfolio,
+      rep: "https://github.com/RenanL15/solar-system",
+      demo: "https://renan-almeida.vercel.app",
+      alt: "Interface do projeto Portfólio",
+      tools: "https://skillicons.dev/icons?i=typescript,react",
     },
     {
       title: "Projeto Orientado",
@@ -81,60 +144,12 @@ export default function Projects() {
       tools: "https://skillicons.dev/icons?i=html,css",
     },
     {
-      title: "Patinhas que Brilham",
-      image: PatinhasQueBrilham,
-      rep: "https://github.com/RenanL15/patinhas-que-brilham",
-      demo: "https://patinhas-que-brilham.vercel.app",
-      alt: "Interface do projeto Patinhas que Brilham",
-      tools: "https://skillicons.dev/icons?i=typescript,css,nextjs,tailwind",
-    },
-    {
-      title: "Danganfellas",
-      image: Danganfellas,
-      rep: "https://github.com/RenanL15/danganfellas",
-      demo: "https://danganfellas.vercel.app",
-      alt: "Interface do projeto Danganfellas",
-      tools: "https://skillicons.dev/icons?i=js,css,react,tailwind",
-    },
-    {
-      title: "GuessYourTrack",
-      image: GuessYourTrack,
-      rep: "https://github.com/RenanL15/guess-your-track",
-      demo: "https://guessyourtrack.vercel.app",
-      alt: "Interface do projeto GuessYourTrack",
-      tools: "https://skillicons.dev/icons?i=js,typescript,css,react,tailwind",
-    },
-    {
       title: "Rankify",
       image: Rankify,
       rep: "https://github.com/RenanL15/rankify",
       demo: "https://rankify-me.netlify.app",
       alt: "Interface do projeto Rankify",
-      tools: "https://skillicons.dev/icons?i=typescript,css,react,tailwind",
-    },
-    {
-      title: "Calculadora",
-      image: Calculadora,
-      rep: "https://github.com/RenanL15/calculadora-react",
-      demo: "https://calculadora-react-tan.vercel.app/",
-      alt: "Interface do projeto Calculadora",
-      tools: "https://skillicons.dev/icons?i=js,css,react,tailwind",
-    },
-    {
-      title: "Solvex",
-      image: Solvex,
-      rep: "",
-      demo: "https://solvex.netlify.app",
-      alt: "Interface do projeto Solvex",
-      tools: "https://skillicons.dev/icons?i=js,html,css",
-    },
-    {
-      title: "Pimentel & Secco",
-      image: PimentelESecco,
-      rep: "",
-      demo: "https://nextapp-livid-nine.vercel.app",
-      alt: "Interface do projeto Pimentel & Secco",
-      tools: "https://skillicons.dev/icons?i=typescript,css,nextjs,tailwind",
+      tools: "https://skillicons.dev/icons?i=typescript,react",
     },
     {
       title: "Solar System",
@@ -145,48 +160,32 @@ export default function Projects() {
       tools: "https://skillicons.dev/icons?i=html,css",
     },
     {
-      title: "NextDictionary",
-      image: NextDictionary,
-      rep: "https://github.com/RenanL15/NextDictionary",
-      demo: "https://next-dictionary-project.vercel.app",
-      alt: "Interface do projeto NextDictionary",
-      tools: "https://skillicons.dev/icons?i=js,html,css",
+      title: "Solvex",
+      image: Solvex,
+      rep: "",
+      demo: "https://solvex.netlify.app",
+      alt: "Interface do projeto Solvex",
+      tools: "https://skillicons.dev/icons?i=js,html",
     },
     {
-      title: "Portfólio",
-      image: Portfolio,
-      rep: "https://github.com/RenanL15/solar-system",
-      demo: "https://renan-almeida.vercel.app",
-      alt: "Interface do projeto Portfólio",
-      tools: "https://skillicons.dev/icons?i=typescript,css,react,tailwind",
-    },
-    {
-      title: "Calculadora IMC",
-      image: IMC,
-      rep: "https://github.com/RenanL15/calculo-imc",
-      demo: "",
-      alt: "Interface do projeto Calculadora IMC",
-      tools: "https://skillicons.dev/icons?i=html,css,php",
-    },
-    {
-      title: "Cadastro de Cursos",
-      image: Cursos,
-      rep: "https://github.com/RenanL15/cadastro-cursos",
-      demo: "",
-      alt: "Interface do projeto Cadastro de Cursos",
-      tools: "https://skillicons.dev/icons?i=html,css,php",
+      title: "StockDo",
+      image: StockDo,
+      rep: "https://github.com/StockDo/stockdo",
+      demo: "https://stockdo.vercel.app",
+      alt: "Interface do projeto StockDo",
+      tools: "https://skillicons.dev/icons?i=js,react",
     },
   ];
+
   return (
     <div className="flex flex-wrap justify-center gap-x-16 gap-y-28 mx-6 my-20">
       {projects.map((e, i) => (
-        <div className="relative flex flex-col items-center group" key={i}>
-          <h1
-            className="font-mono tesxt-lg mb-4 border border-neutral-300 w-full text-center py-1 rounded-full
-          absolute left-0 -top-12 duration-300"
-          >
-            {e.title}
-          </h1>
+        <div className="relative flex flex-col items-center" key={i}>
+          <div className="flex items-center justify-between border border-neutral-300 w-full py-1 px-2 rounded-full mb-4">
+            <div className="w-[40px]"></div>
+            <h1 className="font-mono text-center">{e.title}</h1>
+            <img src={e.tools} width={40} />
+          </div>
           <div className="bg-black lg:h-[16rem] rounded-lg shadow-xl overflow-clip group z-10">
             <div className="max-w-[23rem] overflow-clip">
               <img
@@ -195,11 +194,10 @@ export default function Projects() {
                 className="duration-300 opacity-95 group-hover:scale-110"
               />
             </div>
-            {e.rep && (
-              <button
-                onClick={() => {
-                  window.open(e.rep);
-                }}
+            {e.rep ? (
+              <a
+                href={e.rep}
+                target="_blank"
                 className="flex items-center justify-center w-full gap-2 py-3 font-bold text-white bg-black font-main hover:bg-neutral-8 hover:bg-neutral-800 rep-btn"
               >
                 Ver repositório
@@ -207,10 +205,14 @@ export default function Projects() {
                   <FaGithub />
                   {/* <FaArrowUpRightFromSquare /> */}
                 </span>
-              </button>
+              </a>
+            ) : (
+              <span className="flex items-center justify-center w-full gap-2 py-3 font-bold text-neutral-400 bg-neutral-800 font-main rep-btn">
+                Repositório indisponível
+              </span>
             )}
           </div>
-          {e.demo && (
+          {e.demo ? (
             <a
               href={e.demo}
               target="_blank"
@@ -222,6 +224,10 @@ export default function Projects() {
                 className="inline-block ml-2 align-middle"
               />
             </a>
+          ) : (
+            <p className="mt-3 font-semibold text-neutral-400">
+              Website indisponível
+            </p>
           )}
         </div>
       ))}

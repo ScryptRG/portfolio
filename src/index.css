@@ -21,12 +21,12 @@ html {
   color: #e8e6e3;
 }
 
-.dark button.rep-btn {
+.dark a.rep-btn {
   background-color: #fff;
   color: #000;
 }
 
-.dark button.rep-btn:hover {
+.dark a.rep-btn:hover {
   background-color: #e8e6e3;
 }
 
