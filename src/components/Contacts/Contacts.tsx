@@ -1,9 +1,4 @@
-import {
-  FaFileDownload,
-  FaGithub,
-  FaLinkedin,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaFileDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import Curriculo from "../../assets/curriculo_renan.pdf";
 
 export default function Contacts() {
@@ -18,9 +13,6 @@ export default function Contacts() {
         title="LinkedIn"
       >
         <FaLinkedin />
-      </a>
-      <a href="https://wa.me/13981046971" target="_blank" title="Whatsapp">
-        <FaWhatsapp />
       </a>
       <a href={Curriculo} download={true} title="Meu currículo">
         <FaFileDownload />
