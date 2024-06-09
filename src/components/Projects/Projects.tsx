@@ -9,6 +9,7 @@ import Carlist from "../../assets/projects_images/carlist.jpg";
 import Cursos from "../../assets/projects_images/cursos.jpg";
 import Danganfellas from "../../assets/projects_images/danganfellas.jpg";
 import GuessYourTrack from "../../assets/projects_images/guessyourtrack.jpg";
+import Hollowdle from "../../assets/projects_images/hollowdle.png";
 import IMC from "../../assets/projects_images/IMC.jpg";
 import NextDictionary from "../../assets/projects_images/nextdictionary.jpg";
 import PatinhasQueBrilham from "../../assets/projects_images/patinhas-que-brilham.png";
@@ -94,6 +95,14 @@ export default function Projects() {
       demo: "https://guessyourtrack.vercel.app",
       alt: "Interface do projeto GuessYourTrack",
       tools: "https://skillicons.dev/icons?i=typescript,react",
+    },
+    {
+      title: "Hollowdle",
+      image: Hollowdle,
+      rep: "https://github.com/RenanL15/hollowdle",
+      demo: "https://hollowdle.vercel.app",
+      alt: "Interface do projeto Hollowdle",
+      tools: "https://skillicons.dev/icons?i=typescript,nextjs",
     },
     {
       title: "NextDictionary",
