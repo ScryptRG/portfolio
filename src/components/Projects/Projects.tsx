@@ -35,15 +35,15 @@ export default function Projects() {
     {
       title: "Adoptify",
       image: Adoptify,
-      rep: "https://github.com/RenanL15/adoptify",
-      demo: "https://adoptify-renanl15.vercel.app",
+      rep: "https://github.com/ScryptRG/adoptify",
+      demo: "https://adoptify-ScryptRG.vercel.app",
       alt: "Interface do projeto Adoptify",
       tools: "https://skillicons.dev/icons?i=js,react",
     },
     {
       title: "Bertioga",
       image: Bertioga,
-      rep: "https://github.com/RenanL15/site-bertioga",
+      rep: "https://github.com/ScryptRG/site-bertioga",
       demo: "https://bertioga.vercel.app",
       alt: "Interface do projeto Bertioga",
       tools: "https://skillicons.dev/icons?i=js,html",
@@ -51,7 +51,7 @@ export default function Projects() {
     {
       title: "Calculadora",
       image: Calculadora,
-      rep: "https://github.com/RenanL15/calculadora-react",
+      rep: "https://github.com/ScryptRG/calculadora-react",
       demo: "https://calculadora-react-tan.vercel.app/",
       alt: "Interface do projeto Calculadora",
       tools: "https://skillicons.dev/icons?i=js,react",
@@ -59,7 +59,7 @@ export default function Projects() {
     {
       title: "Calculadora IMC",
       image: IMC,
-      rep: "https://github.com/RenanL15/calculo-imc",
+      rep: "https://github.com/ScryptRG/calculo-imc",
       demo: "",
       alt: "Interface do projeto Calculadora IMC",
       tools: "https://skillicons.dev/icons?i=html,php",
@@ -67,7 +67,7 @@ export default function Projects() {
     {
       title: "Cadastro de Cursos",
       image: Cursos,
-      rep: "https://github.com/RenanL15/cadastro-cursos",
+      rep: "https://github.com/ScryptRG/cadastro-cursos",
       demo: "",
       alt: "Interface do projeto Cadastro de Cursos",
       tools: "https://skillicons.dev/icons?i=html,php",
@@ -75,7 +75,7 @@ export default function Projects() {
     {
       title: "Carlist",
       image: Carlist,
-      rep: "https://github.com/RenanL15/car-list",
+      rep: "https://github.com/ScryptRG/car-list",
       demo: "https://car-list-react.vercel.app",
       alt: "Interface do projeto Carlist",
       tools: "https://skillicons.dev/icons?i=js,react",
@@ -83,7 +83,7 @@ export default function Projects() {
     {
       title: "Danganfellas",
       image: Danganfellas,
-      rep: "https://github.com/RenanL15/danganfellas",
+      rep: "https://github.com/ScryptRG/danganfellas",
       demo: "https://danganfellas.vercel.app",
       alt: "Interface do projeto Danganfellas",
       tools: "https://skillicons.dev/icons?i=js,react",
@@ -91,7 +91,7 @@ export default function Projects() {
     {
       title: "GuessYourTrack",
       image: GuessYourTrack,
-      rep: "https://github.com/RenanL15/guess-your-track",
+      rep: "https://github.com/ScryptRG/guess-your-track",
       demo: "https://guessyourtrack.vercel.app",
       alt: "Interface do projeto GuessYourTrack",
       tools: "https://skillicons.dev/icons?i=typescript,react",
@@ -99,7 +99,7 @@ export default function Projects() {
     {
       title: "Hollowdle",
       image: Hollowdle,
-      rep: "https://github.com/RenanL15/hollowdle",
+      rep: "https://github.com/ScryptRG/hollowdle",
       demo: "https://hollowdle.vercel.app",
       alt: "Interface do projeto Hollowdle",
       tools: "https://skillicons.dev/icons?i=typescript,nextjs",
@@ -107,7 +107,7 @@ export default function Projects() {
     {
       title: "NextDictionary",
       image: NextDictionary,
-      rep: "https://github.com/RenanL15/NextDictionary",
+      rep: "https://github.com/ScryptRG/NextDictionary",
       demo: "https://next-dictionary-project.vercel.app",
       alt: "Interface do projeto NextDictionary",
       tools: "https://skillicons.dev/icons?i=js,html",
@@ -115,7 +115,7 @@ export default function Projects() {
     {
       title: "Patinhas que Brilham",
       image: PatinhasQueBrilham,
-      rep: "https://github.com/RenanL15/patinhas-que-brilham",
+      rep: "https://github.com/ScryptRG/patinhas-que-brilham",
       demo: "https://patinhas-que-brilham.vercel.app",
       alt: "Interface do projeto Patinhas que Brilham",
       tools: "https://skillicons.dev/icons?i=typescript,nextjs",
@@ -131,7 +131,7 @@ export default function Projects() {
     {
       title: "Pizza Planet",
       image: PizzaPlanet,
-      rep: "https://github.com/RenanL15/pizza-planet",
+      rep: "https://github.com/ScryptRG/pizza-planet",
       demo: "https://pizza-planet.vercel.app",
       alt: "Interface do projeto Pizza Planet",
       tools: "https://skillicons.dev/icons?i=js,html",
@@ -139,7 +139,7 @@ export default function Projects() {
     {
       title: "Portfólio",
       image: Portfolio,
-      rep: "https://github.com/RenanL15/solar-system",
+      rep: "https://github.com/ScryptRG/solar-system",
       demo: "https://renan-almeida.vercel.app",
       alt: "Interface do projeto Portfólio",
       tools: "https://skillicons.dev/icons?i=typescript,react",
@@ -147,7 +147,7 @@ export default function Projects() {
     {
       title: "Projeto Orientado",
       image: ProjetoOrientado,
-      rep: "https://github.com/RenanL15/projeto-orientado",
+      rep: "https://github.com/ScryptRG/projeto-orientado",
       demo: "https://projeto-orientado-fatec.vercel.app",
       alt: "Interface do projeto Projeto Orientado",
       tools: "https://skillicons.dev/icons?i=html,css",
@@ -155,7 +155,7 @@ export default function Projects() {
     {
       title: "Rankify",
       image: Rankify,
-      rep: "https://github.com/RenanL15/rankify",
+      rep: "https://github.com/ScryptRG/rankify",
       demo: "https://rankify-me.netlify.app",
       alt: "Interface do projeto Rankify",
       tools: "https://skillicons.dev/icons?i=typescript,react",
@@ -163,8 +163,8 @@ export default function Projects() {
     {
       title: "Solar System",
       image: SolarSystem,
-      rep: "https://github.com/RenanL15/solar-system",
-      demo: "https://solar-system-renanl15.vercel.app",
+      rep: "https://github.com/ScryptRG/solar-system",
+      demo: "https://solar-system-ScryptRG.vercel.app",
       alt: "Interface do projeto Solar System",
       tools: "https://skillicons.dev/icons?i=html,css",
     },
