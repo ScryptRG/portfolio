@@ -81,11 +81,11 @@ export default function Projects() {
       tools: "https://skillicons.dev/icons?i=js,react",
     },
     {
-      title: "Danganfellas",
+      title: "Danganracters",
       image: Danganfellas,
-      rep: "https://github.com/ScryptRG/danganfellas",
-      demo: "https://danganfellas.vercel.app",
-      alt: "Interface do projeto Danganfellas",
+      rep: "https://github.com/ScryptRG/danganracters",
+      demo: "https://danganracters.vercel.app",
+      alt: "Interface do projeto Danganracters",
       tools: "https://skillicons.dev/icons?i=js,react",
     },
     {
