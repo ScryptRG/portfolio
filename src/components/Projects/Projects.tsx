@@ -94,7 +94,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/guess-your-track",
       demo: "https://guessyourtrack.vercel.app",
       alt: "Interface do projeto GuessYourTrack",
-      tools: "https://skillicons.dev/icons?i=typescript,react",
+      tools: "https://skillicons.dev/icons?i=javascript,react",
     },
     {
       title: "Hollowdle",
@@ -139,7 +139,7 @@ export default function Projects() {
     {
       title: "Portfólio",
       image: Portfolio,
-      rep: "https://github.com/ScryptRG/solar-system",
+      rep: "https://github.com/ScryptRG/portfolio",
       demo: "https://renan-almeida.vercel.app",
       alt: "Interface do projeto Portfólio",
       tools: "https://skillicons.dev/icons?i=typescript,react",
