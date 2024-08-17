@@ -29,9 +29,9 @@ function App() {
             Desenvolvedor Full-stack
           </h2>
           <img
-            src="https://skillicons.dev/icons?i=js,typescript,html,css,react,nextjs,tailwind,nodejs,git,php,prisma,mysql"
-            alt="My skills [JS, HTML, CSS, React, NextJS, Tailwind, NodeJS, Angular, Bootstrap, PHP, Figma, MySQL]"
-            width={450}
+            src="https://skillicons.dev/icons?i=js,typescript,html,css,react,nextjs,angular,tailwind,nodejs,git,php,prisma,mysql"
+            alt="My skills [JS, TypeScript, HTML, CSS, React, NextJS, Angular, NodeJS, Git, PHP, Prisma, MySQL]"
+            width={500}
           />
           <a href="#sobre" className="mt-6 animate-bounce">
             <IoIosArrowDown size={50} />
