@@ -10,6 +10,7 @@ import Cursos from "../../assets/projects_images/cursos.jpg";
 import Danganfellas from "../../assets/projects_images/danganfellas.jpg";
 import GuessYourTrack from "../../assets/projects_images/guessyourtrack.jpg";
 import Hollowdle from "../../assets/projects_images/hollowdle.png";
+import Narilist from "../../assets/projects_images/narilist.png";
 import IMC from "../../assets/projects_images/IMC.jpg";
 import NextDictionary from "../../assets/projects_images/nextdictionary.jpg";
 import PatinhasQueBrilham from "../../assets/projects_images/patinhas-que-brilham.png";
@@ -20,6 +21,7 @@ import ProjetoOrientado from "../../assets/projects_images/projeto-orientado.png
 import Rankify from "../../assets/projects_images/rankify.png";
 import SolarSystem from "../../assets/projects_images/solarsystem.jpg";
 import Solvex from "../../assets/projects_images/solvex.png";
+import Starmine from "../../assets/projects_images/starmine.png";
 import StockDo from "../../assets/projects_images/stockdo.png";
 
 export default function Projects() {
@@ -105,6 +107,14 @@ export default function Projects() {
       tools: "https://skillicons.dev/icons?i=typescript,nextjs",
     },
     {
+      title: "Narilist",
+      image: Narilist,
+      rep: "https://github.com/ScryptRG/narilist",
+      demo: "https://narilist.vercel.app",
+      alt: "Interface do projeto Narilist",
+      tools: "https://skillicons.dev/icons?i=typescript,angular",
+    },
+    {
       title: "NextDictionary",
       image: NextDictionary,
       rep: "https://github.com/ScryptRG/NextDictionary",
@@ -175,6 +185,14 @@ export default function Projects() {
       demo: "https://solvex.netlify.app",
       alt: "Interface do projeto Solvex",
       tools: "https://skillicons.dev/icons?i=js,html",
+    },
+    {
+      title: "Starmine",
+      image: Starmine,
+      rep: "https://github.com/ScryptRG/starmine",
+      demo: "https://starmine.vercel.app",
+      alt: "Interface do projeto Starmine",
+      tools: "https://skillicons.dev/icons?i=ts,angular",
     },
     {
       title: "StockDo",

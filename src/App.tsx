@@ -58,8 +58,8 @@ function App() {
           anos, tenho imergido no universo de desenvolvimento de websites,
           aplicando e aprimorando constantemente meus conhecimentos através de
           projetos acadêmico e pessoais, tendo conhecimento em tecnologias como
-          JavaScript, React, NodeJS, Next, PHP e MySQL, que são ferramentas
-          fundamentais para desenvolvimento full-stack.
+          JavaScript, React, NodeJS, Next, Angular, PHP e MySQL, que são
+          ferramentas fundamentais para desenvolvimento full-stack.
         </p>
       </div>
       <div className="flex flex-col items-center mt-64">
