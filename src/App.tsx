@@ -53,8 +53,8 @@ function App() {
         />
         <p className="font-main leading-[2.4rem] w-[50%] text-justify max-xl:w-[80%] max-xl:text-base max-xl:text-center max-xl:leading-9">
           Meu nome é Renan Almeida, sou formado em Desenvolvimento de Sistemas
-          pela ETEC Dra. Ruth Cardoso e atualmente estou cursando o 1° ciclo em
-          Sistemas para Internet na FATEC Rubens Lara. Ao longo dos últimos 3
+          pela ETEC Dra. Ruth Cardoso e atualmente estou cursando Sistemas para
+          Internet na FATEC Rubens Lara.Ao longo dos últimos
           anos, tenho imergido no universo de desenvolvimento de websites,
           aplicando e aprimorando constantemente meus conhecimentos através de
           projetos acadêmico e pessoais, tendo conhecimento em tecnologias como
