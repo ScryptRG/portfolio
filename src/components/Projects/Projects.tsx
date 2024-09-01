@@ -8,6 +8,7 @@ import Calculadora from "../../assets/projects_images/calculadora.jpg";
 import Carlist from "../../assets/projects_images/carlist.jpg";
 import Cursos from "../../assets/projects_images/cursos.jpg";
 import Danganfellas from "../../assets/projects_images/danganfellas.jpg";
+import GuessYourLyrics from "../../assets/projects_images/guessyourlyrics.png";
 import GuessYourTrack from "../../assets/projects_images/guessyourtrack.jpg";
 import Hollowdle from "../../assets/projects_images/hollowdle.png";
 import Narilist from "../../assets/projects_images/narilist.png";
@@ -40,7 +41,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/adoptify",
       demo: "https://adoptify-renanl15.vercel.app",
       alt: "Interface do projeto Adoptify",
-      tools: "https://skillicons.dev/icons?i=js,react",
+      tools: "https://skillicons.dev/icons?i=react,js",
     },
     {
       title: "Bertioga",
@@ -48,7 +49,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/site-bertioga",
       demo: "https://bertioga.vercel.app",
       alt: "Interface do projeto Bertioga",
-      tools: "https://skillicons.dev/icons?i=js,html",
+      tools: "https://skillicons.dev/icons?i=html,js",
     },
     {
       title: "Calculadora",
@@ -56,7 +57,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/calculadora-react",
       demo: "https://calculadora-react-tan.vercel.app/",
       alt: "Interface do projeto Calculadora",
-      tools: "https://skillicons.dev/icons?i=js,react",
+      tools: "https://skillicons.dev/icons?i=react,js",
     },
     {
       title: "Calculadora IMC",
@@ -80,7 +81,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/car-list",
       demo: "https://car-list-react.vercel.app",
       alt: "Interface do projeto Carlist",
-      tools: "https://skillicons.dev/icons?i=js,react",
+      tools: "https://skillicons.dev/icons?i=react,js",
     },
     {
       title: "Danganracters",
@@ -88,7 +89,15 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/danganracters",
       demo: "https://danganracters.vercel.app",
       alt: "Interface do projeto Danganracters",
-      tools: "https://skillicons.dev/icons?i=js,react",
+      tools: "https://skillicons.dev/icons?i=react,js",
+    },
+    {
+      title: "GuessYourLyrics",
+      image: GuessYourLyrics,
+      rep: "https://github.com/ScryptRG/guess-your-lyrics",
+      demo: "https://guessyourlyrics.vercel.app",
+      alt: "Interface do projeto GuessYourLyrics",
+      tools: "https://skillicons.dev/icons?i=angular,ts",
     },
     {
       title: "GuessYourTrack",
@@ -96,7 +105,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/guess-your-track",
       demo: "https://guessyourtrack.vercel.app",
       alt: "Interface do projeto GuessYourTrack",
-      tools: "https://skillicons.dev/icons?i=javascript,react",
+      tools: "https://skillicons.dev/icons?i=react,js",
     },
     {
       title: "Hollowdle",
@@ -104,7 +113,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/hollowdle",
       demo: "https://hollowdle.vercel.app",
       alt: "Interface do projeto Hollowdle",
-      tools: "https://skillicons.dev/icons?i=typescript,nextjs",
+      tools: "https://skillicons.dev/icons?i=nextjs,ts",
     },
     {
       title: "Narilist",
@@ -112,7 +121,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/narilist",
       demo: "https://narilist.vercel.app",
       alt: "Interface do projeto Narilist",
-      tools: "https://skillicons.dev/icons?i=typescript,angular",
+      tools: "https://skillicons.dev/icons?i=angular,ts",
     },
     {
       title: "NextDictionary",
@@ -120,7 +129,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/NextDictionary",
       demo: "https://next-dictionary-project.vercel.app",
       alt: "Interface do projeto NextDictionary",
-      tools: "https://skillicons.dev/icons?i=js,html",
+      tools: "https://skillicons.dev/icons?i=html,js",
     },
     {
       title: "Patinhas que Brilham",
@@ -128,7 +137,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/patinhas-que-brilham",
       demo: "https://patinhas-que-brilham.vercel.app",
       alt: "Interface do projeto Patinhas que Brilham",
-      tools: "https://skillicons.dev/icons?i=typescript,nextjs",
+      tools: "https://skillicons.dev/icons?i=nextjs,ts",
     },
     {
       title: "Pimentel & Secco",
@@ -136,7 +145,7 @@ export default function Projects() {
       rep: "",
       demo: "https://nextapp-livid-nine.vercel.app",
       alt: "Interface do projeto Pimentel & Secco",
-      tools: "https://skillicons.dev/icons?i=typescript,nextjs",
+      tools: "https://skillicons.dev/icons?i=nextjs,ts",
     },
     {
       title: "Pizza Planet",
@@ -144,7 +153,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/pizza-planet",
       demo: "https://pizza-planet.vercel.app",
       alt: "Interface do projeto Pizza Planet",
-      tools: "https://skillicons.dev/icons?i=js,html",
+      tools: "https://skillicons.dev/icons?i=html,js",
     },
     {
       title: "Portfólio",
@@ -152,7 +161,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/portfolio",
       demo: "https://renan-almeida.vercel.app",
       alt: "Interface do projeto Portfólio",
-      tools: "https://skillicons.dev/icons?i=typescript,react",
+      tools: "https://skillicons.dev/icons?i=react,ts",
     },
     {
       title: "Projeto Orientado",
@@ -168,7 +177,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/rankify",
       demo: "https://rankify-me.netlify.app",
       alt: "Interface do projeto Rankify",
-      tools: "https://skillicons.dev/icons?i=typescript,react",
+      tools: "https://skillicons.dev/icons?i=react,ts",
     },
     {
       title: "Solar System",
@@ -184,7 +193,7 @@ export default function Projects() {
       rep: "",
       demo: "https://solvex.netlify.app",
       alt: "Interface do projeto Solvex",
-      tools: "https://skillicons.dev/icons?i=js,html",
+      tools: "https://skillicons.dev/icons?i=html,js",
     },
     {
       title: "Starmine",
@@ -192,7 +201,7 @@ export default function Projects() {
       rep: "https://github.com/ScryptRG/starmine",
       demo: "https://starmine.vercel.app",
       alt: "Interface do projeto Starmine",
-      tools: "https://skillicons.dev/icons?i=ts,angular",
+      tools: "https://skillicons.dev/icons?i=angular,ts",
     },
     {
       title: "StockDo",
@@ -200,7 +209,7 @@ export default function Projects() {
       rep: "https://github.com/StockDo/stockdo",
       demo: "https://stockdo.vercel.app",
       alt: "Interface do projeto StockDo",
-      tools: "https://skillicons.dev/icons?i=js,react",
+      tools: "https://skillicons.dev/icons?i=react,js",
     },
   ];
 
