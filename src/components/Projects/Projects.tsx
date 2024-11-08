@@ -2,28 +2,29 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 
 // Projects background images
-import Adoptify from "../../assets/projects_images/adoptify.jpg";
-import Bertioga from "../../assets/projects_images/bertioga.jpg";
-import Calculadora from "../../assets/projects_images/calculadora.jpg";
-import Carlist from "../../assets/projects_images/carlist.jpg";
-import Cursos from "../../assets/projects_images/cursos.jpg";
-import Danganfellas from "../../assets/projects_images/danganfellas.jpg";
-import GuessYourLyrics from "../../assets/projects_images/guessyourlyrics.png";
-import GuessYourTrack from "../../assets/projects_images/guessyourtrack.jpg";
-import Hollowdle from "../../assets/projects_images/hollowdle.png";
-import Narilist from "../../assets/projects_images/narilist.png";
-import IMC from "../../assets/projects_images/IMC.jpg";
-import NextDictionary from "../../assets/projects_images/nextdictionary.jpg";
-import PatinhasQueBrilham from "../../assets/projects_images/patinhas-que-brilham.png";
-import PimentelESecco from "../../assets/projects_images/pimentel-e-secco.png";
-import PizzaPlanet from "../../assets/projects_images/pizzaplanet.jpg";
-import Portfolio from "../../assets/projects_images/portfolio.jpg";
-import ProjetoOrientado from "../../assets/projects_images/projeto-orientado.png";
-import Rankify from "../../assets/projects_images/rankify.png";
-import SolarSystem from "../../assets/projects_images/solarsystem.jpg";
-import Solvex from "../../assets/projects_images/solvex.png";
-import Starmine from "../../assets/projects_images/starmine.png";
-import StockDo from "../../assets/projects_images/stockdo.png";
+import Adoptify from "../../assets/projects-images/adoptify.jpg";
+import Bertioga from "../../assets/projects-images/bertioga.jpg";
+import Calculadora from "../../assets/projects-images/calculadora.jpg";
+import Carlist from "../../assets/projects-images/carlist.jpg";
+import Cursos from "../../assets/projects-images/cursos.jpg";
+import Danganfellas from "../../assets/projects-images/danganfellas.jpg";
+import Fitclub from "../../assets/projects-images/fitclub.png";
+import GuessYourLyrics from "../../assets/projects-images/guessyourlyrics.png";
+import GuessYourTrack from "../../assets/projects-images/guessyourtrack.jpg";
+import Hollowdle from "../../assets/projects-images/hollowdle.png";
+import Narilist from "../../assets/projects-images/narilist.png";
+import IMC from "../../assets/projects-images/IMC.jpg";
+import NextDictionary from "../../assets/projects-images/nextdictionary.jpg";
+import PatinhasQueBrilham from "../../assets/projects-images/patinhas-que-brilham.png";
+import PimentelESecco from "../../assets/projects-images/pimentel-e-secco.png";
+import PizzaPlanet from "../../assets/projects-images/pizzaplanet.jpg";
+import Portfolio from "../../assets/projects-images/portfolio.jpg";
+import ProjetoOrientado from "../../assets/projects-images/projeto-orientado.png";
+import Rankify from "../../assets/projects-images/rankify.png";
+import SolarSystem from "../../assets/projects-images/solarsystem.jpg";
+import Solvex from "../../assets/projects-images/solvex.png";
+import Starmine from "../../assets/projects-images/starmine.png";
+import StockDo from "../../assets/projects-images/stockdo.png";
 
 export default function Projects() {
   interface Projects {
@@ -90,6 +91,14 @@ export default function Projects() {
       demo: "https://danganracters.vercel.app",
       alt: "Interface do projeto Danganracters",
       tools: "https://skillicons.dev/icons?i=react,js",
+    },
+    {
+      title: "Fitclub",
+      image: Fitclub,
+      rep: "https://github.com/ScryptRG/fitclub-app",
+      demo: "https://appfitclub.vercel.app",
+      alt: "Interface do projeto Fitclub",
+      tools: "https://skillicons.dev/icons?i=nextjs,ts",
     },
     {
       title: "GuessYourLyrics",
