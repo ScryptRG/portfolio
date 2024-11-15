@@ -4,26 +4,18 @@ import { FaGithub } from "react-icons/fa";
 // Projects background images
 import Adoptify from "../../assets/projects-images/adoptify.jpg";
 import Bertioga from "../../assets/projects-images/bertioga.jpg";
-import Calculadora from "../../assets/projects-images/calculadora.jpg";
 import Carlist from "../../assets/projects-images/carlist.jpg";
-import Cursos from "../../assets/projects-images/cursos.jpg";
 import Danganfellas from "../../assets/projects-images/danganfellas.jpg";
 import Fitclub from "../../assets/projects-images/fitclub.png";
 import GuessYourLyrics from "../../assets/projects-images/guessyourlyrics.png";
 import GuessYourTrack from "../../assets/projects-images/guessyourtrack.jpg";
 import Hollowdle from "../../assets/projects-images/hollowdle.png";
 import Narilist from "../../assets/projects-images/narilist.png";
-import IMC from "../../assets/projects-images/IMC.jpg";
 import NextDictionary from "../../assets/projects-images/nextdictionary.jpg";
 import PatinhasQueBrilham from "../../assets/projects-images/patinhas-que-brilham.png";
 import PimentelESecco from "../../assets/projects-images/pimentel-e-secco.png";
-import PizzaPlanet from "../../assets/projects-images/pizzaplanet.jpg";
-import Portfolio from "../../assets/projects-images/portfolio.jpg";
 import ProjetoOrientado from "../../assets/projects-images/projeto-orientado.png";
 import Rankify from "../../assets/projects-images/rankify.png";
-import SolarSystem from "../../assets/projects-images/solarsystem.jpg";
-import Solvex from "../../assets/projects-images/solvex.png";
-import Starmine from "../../assets/projects-images/starmine.png";
 import StockDo from "../../assets/projects-images/stockdo.png";
 
 export default function Projects() {
@@ -36,6 +28,38 @@ export default function Projects() {
     tools: string;
   }
   const projects: Projects[] = [
+    {
+      title: "GuessYourLyrics",
+      image: GuessYourLyrics,
+      rep: "https://github.com/ScryptRG/guess-your-lyrics",
+      demo: "https://guessyourlyrics.vercel.app",
+      alt: "Interface do projeto GuessYourLyrics",
+      tools: "https://skillicons.dev/icons?i=angular,ts",
+    },
+    {
+      title: "GuessYourTrack",
+      image: GuessYourTrack,
+      rep: "https://github.com/ScryptRG/guess-your-track",
+      demo: "https://guessyourtrack.vercel.app",
+      alt: "Interface do projeto GuessYourTrack",
+      tools: "https://skillicons.dev/icons?i=react,js",
+    },
+    {
+      title: "Rankify",
+      image: Rankify,
+      rep: "https://github.com/ScryptRG/rankify",
+      demo: "https://rankify-me.netlify.app",
+      alt: "Interface do projeto Rankify",
+      tools: "https://skillicons.dev/icons?i=react,ts",
+    },
+    {
+      title: "StockDo",
+      image: StockDo,
+      rep: "https://github.com/StockDo/stockdo",
+      demo: "https://stockdo.vercel.app",
+      alt: "Interface do projeto StockDo",
+      tools: "https://skillicons.dev/icons?i=react,js",
+    },
     {
       title: "Adoptify",
       image: Adoptify,
@@ -53,28 +77,20 @@ export default function Projects() {
       tools: "https://skillicons.dev/icons?i=html,js",
     },
     {
-      title: "Calculadora",
-      image: Calculadora,
-      rep: "https://github.com/ScryptRG/calculadora-react",
-      demo: "https://calculadora-react-tan.vercel.app/",
-      alt: "Interface do projeto Calculadora",
+      title: "Danganracters",
+      image: Danganfellas,
+      rep: "https://github.com/ScryptRG/danganracters",
+      demo: "https://danganracters.vercel.app",
+      alt: "Interface do projeto Danganracters",
       tools: "https://skillicons.dev/icons?i=react,js",
     },
     {
-      title: "Calculadora IMC",
-      image: IMC,
-      rep: "https://github.com/ScryptRG/calculo-imc",
-      demo: "",
-      alt: "Interface do projeto Calculadora IMC",
-      tools: "https://skillicons.dev/icons?i=html,php",
-    },
-    {
-      title: "Cadastro de Cursos",
-      image: Cursos,
-      rep: "https://github.com/ScryptRG/cadastro-cursos",
-      demo: "",
-      alt: "Interface do projeto Cadastro de Cursos",
-      tools: "https://skillicons.dev/icons?i=html,php",
+      title: "NextDictionary",
+      image: NextDictionary,
+      rep: "https://github.com/ScryptRG/NextDictionary",
+      demo: "https://next-dictionary-project.vercel.app",
+      alt: "Interface do projeto NextDictionary",
+      tools: "https://skillicons.dev/icons?i=html,js",
     },
     {
       title: "Carlist",
@@ -85,36 +101,12 @@ export default function Projects() {
       tools: "https://skillicons.dev/icons?i=react,js",
     },
     {
-      title: "Danganracters",
-      image: Danganfellas,
-      rep: "https://github.com/ScryptRG/danganracters",
-      demo: "https://danganracters.vercel.app",
-      alt: "Interface do projeto Danganracters",
-      tools: "https://skillicons.dev/icons?i=react,js",
-    },
-    {
       title: "Fitclub",
       image: Fitclub,
       rep: "https://github.com/ScryptRG/fitclub-app",
       demo: "https://appfitclub.vercel.app",
       alt: "Interface do projeto Fitclub",
       tools: "https://skillicons.dev/icons?i=nextjs,ts",
-    },
-    {
-      title: "GuessYourLyrics",
-      image: GuessYourLyrics,
-      rep: "https://github.com/ScryptRG/guess-your-lyrics",
-      demo: "https://guessyourlyrics.vercel.app",
-      alt: "Interface do projeto GuessYourLyrics",
-      tools: "https://skillicons.dev/icons?i=angular,ts",
-    },
-    {
-      title: "GuessYourTrack",
-      image: GuessYourTrack,
-      rep: "https://github.com/ScryptRG/guess-your-track",
-      demo: "https://guessyourtrack.vercel.app",
-      alt: "Interface do projeto GuessYourTrack",
-      tools: "https://skillicons.dev/icons?i=react,js",
     },
     {
       title: "Hollowdle",
@@ -133,44 +125,12 @@ export default function Projects() {
       tools: "https://skillicons.dev/icons?i=angular,ts",
     },
     {
-      title: "NextDictionary",
-      image: NextDictionary,
-      rep: "https://github.com/ScryptRG/NextDictionary",
-      demo: "https://next-dictionary-project.vercel.app",
-      alt: "Interface do projeto NextDictionary",
-      tools: "https://skillicons.dev/icons?i=html,js",
-    },
-    {
-      title: "Patinhas que Brilham",
-      image: PatinhasQueBrilham,
-      rep: "https://github.com/ScryptRG/patinhas-que-brilham",
-      demo: "https://patinhas-que-brilham.vercel.app",
-      alt: "Interface do projeto Patinhas que Brilham",
-      tools: "https://skillicons.dev/icons?i=nextjs,ts",
-    },
-    {
       title: "Pimentel & Secco",
       image: PimentelESecco,
       rep: "",
       demo: "https://nextapp-livid-nine.vercel.app",
       alt: "Interface do projeto Pimentel & Secco",
       tools: "https://skillicons.dev/icons?i=nextjs,ts",
-    },
-    {
-      title: "Pizza Planet",
-      image: PizzaPlanet,
-      rep: "https://github.com/ScryptRG/pizza-planet",
-      demo: "https://pizza-planet.vercel.app",
-      alt: "Interface do projeto Pizza Planet",
-      tools: "https://skillicons.dev/icons?i=html,js",
-    },
-    {
-      title: "Portfólio",
-      image: Portfolio,
-      rep: "https://github.com/ScryptRG/portfolio",
-      demo: "https://renan-almeida.vercel.app",
-      alt: "Interface do projeto Portfólio",
-      tools: "https://skillicons.dev/icons?i=react,ts",
     },
     {
       title: "Projeto Orientado",
@@ -181,44 +141,12 @@ export default function Projects() {
       tools: "https://skillicons.dev/icons?i=html,css",
     },
     {
-      title: "Rankify",
-      image: Rankify,
-      rep: "https://github.com/ScryptRG/rankify",
-      demo: "https://rankify-me.netlify.app",
-      alt: "Interface do projeto Rankify",
-      tools: "https://skillicons.dev/icons?i=react,ts",
-    },
-    {
-      title: "Solar System",
-      image: SolarSystem,
-      rep: "https://github.com/ScryptRG/solar-system",
-      demo: "https://solar-system-renanl15.vercel.app",
-      alt: "Interface do projeto Solar System",
-      tools: "https://skillicons.dev/icons?i=html,css",
-    },
-    {
-      title: "Solvex",
-      image: Solvex,
-      rep: "",
-      demo: "https://solvex.netlify.app",
-      alt: "Interface do projeto Solvex",
-      tools: "https://skillicons.dev/icons?i=html,js",
-    },
-    {
-      title: "Starmine",
-      image: Starmine,
-      rep: "https://github.com/ScryptRG/starmine",
-      demo: "https://starmine.vercel.app",
-      alt: "Interface do projeto Starmine",
-      tools: "https://skillicons.dev/icons?i=angular,ts",
-    },
-    {
-      title: "StockDo",
-      image: StockDo,
-      rep: "https://github.com/StockDo/stockdo",
-      demo: "https://stockdo.vercel.app",
-      alt: "Interface do projeto StockDo",
-      tools: "https://skillicons.dev/icons?i=react,js",
+      title: "Patinhas que Brilham",
+      image: PatinhasQueBrilham,
+      rep: "https://github.com/ScryptRG/patinhas-que-brilham",
+      demo: "https://patinhas-que-brilham.vercel.app",
+      alt: "Interface do projeto Patinhas que Brilham",
+      tools: "https://skillicons.dev/icons?i=nextjs,ts",
     },
   ];
 
@@ -243,8 +171,7 @@ export default function Projects() {
               <a
                 href={e.rep}
                 target="_blank"
-                className="flex items-center justify-center w-full gap-2 py-3 font-bold text-white bg-black font-main hover:bg-neutral-8 hover:bg-neutral-800 rep-btn"
-              >
+                className="flex items-center justify-center w-full gap-2 py-3 font-bold text-white bg-black font-main hover:bg-neutral-8 hover:bg-neutral-800 rep-btn">
                 Ver repositório
                 <span className="inline-block">
                   <FaGithub />
@@ -261,8 +188,7 @@ export default function Projects() {
             <a
               href={e.demo}
               target="_blank"
-              className="mt-3 font-semibold text-slate-600 hover:underline"
-            >
+              className="mt-3 font-semibold text-slate-600 hover:underline">
               Abrir website
               <FaArrowUpRightFromSquare
                 size={15}
