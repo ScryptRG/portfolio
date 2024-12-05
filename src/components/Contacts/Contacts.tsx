@@ -1,5 +1,5 @@
 import { FaFileDownload, FaGithub, FaLinkedin } from "react-icons/fa";
-import Curriculo from "../../assets/curriculo_renan.pdf";
+import Curriculo from "../../assets/curriculo-renan-almeida.pdf";
 
 export default function Contacts() {
   return (
@@ -10,8 +10,7 @@ export default function Contacts() {
       <a
         href="https://www.linkedin.com/in/renan-almeida-lopes"
         target="_blank"
-        title="LinkedIn"
-      >
+        title="LinkedIn">
         <FaLinkedin />
       </a>
       <a href={Curriculo} download={true} title="Meu currículo">
